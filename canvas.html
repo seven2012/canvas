@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equev="X-UA-Compatible" content="ie=edge">
+  <title>JS Bin</title>
+  <style>
+        *{
+        margin:0;
+        }
+        .box{
+        position:relative;
+        width: 100vw;
+        height: 100vh;
+        background: pink;
+        z-index:0;
+        }
+        .controls{
+        color:#fff;
+        margin-top:10px;
+        margin-left:10px;
+        z-index:1;
+        position:absolute;
+        }
+  </style>
+</head>
+<body>
+ <div class="box" id="canvasWrapper">
+    <div class="controls">
+      <label><input type="radio" name="tool" value ="pen" check="checked">画笔</label>
+      <label><label><input type="radio" name="tool" value ="eraser">橡皮擦</label>
+      <label><label><input type="radio" name="tool" value ="clear">清除画布</label>
+    </div>
+   
+ </div>
+
+  
+</body>
+</html>
